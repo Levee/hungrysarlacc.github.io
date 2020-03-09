@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link type="text/css" rel="stylesheet" href="../stylesheet">
+<title>The Hungry Sarlacc</title>
+
+<style>
+<!--
+.styling{
+position: fixed;
+right: 0;
+bottom: 0;
+background-color:black;
+color:lime;
+font: bold 18px MS Sans Serif;
+padding: 3px;
+}
+-->
+</style>
+</head>
+<body>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+
+/*****************************************
+* LCD Clock script- by Javascriptkit.com
+* Featured on/available at http://www.dynamicdrive.com/
+* This notice must stay intact for use
+*****************************************/
+
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='lime'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+<div id="top" class="nav">
+<ul>
+<li><a class="active" href="../">Home</a></li>
+<li><a href="nav/menu">Menu</a></li>
+<li><a href="nav/forum">Forum</a></li>
+<li><a href="nav/music">Music</a></li>
+<li><a href="nav/contact">Contact</a></li>
+</ul>
+</div><br><br>
+<div class="title">
+<div class="icon">
+<img class="icon" src="../images/sarlaccico.png" alt="Website Icon">
+</div>
+<div class="icon">
+<h1>The Hungry Sarlacc</h1>
+<h3>Restaurant and Bar</h3>
+</div>
+</div><br>
+<div>
+<p>Proudly established in 2018 ABY. This rowdy restaurant has something for everyone. Food, drinks, and live music! Sit at one of our tables or hangout at the bar! Listen to local musicians perform live in our lounge area.</p>
+<br>
+<img src="../images/cantina1.jpg" alt="Mos Eisley Cantina">
+<br>
+</div><br>
+<footer>
+<p>Copyright © 2018 Levi Carlson</p>
+<hr>
+<a href="mailto:lec05240@ccv.vsc.edu" target="_blank">Contact Me</a>
+</footer>
+</body>
+</html>
