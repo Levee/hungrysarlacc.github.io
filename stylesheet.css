@@ -1,0 +1,323 @@
+div {
+	background: #2d4b73;
+	padding: 1.5%;
+	width: 75%;
+	margin: 0 auto;
+}
+
+body {
+	background: #eaddca;
+	margin: 0;
+}
+
+span {
+	color: #ffffff;
+}
+
+th {
+	border: 1px solid grey;
+}
+
+div.caltitle h2 {
+	color: #2d4b73;
+}
+
+.main {
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.row {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.center {
+	text-align: center;
+}
+
+.yel {
+	color: #ffd44e;
+}
+
+table.div, table.divtwo {
+	border: none;
+	border-collapse: collapse;
+}
+
+table.div td {
+	border-left: 3px solid #abb7c7;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 50%;
+}
+
+table.divtwo td {
+	border-left: 3px solid #2d4b73;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 50%;
+}
+
+table.div td:first-child, table.div td:first-child {
+	border-left: none;
+}
+
+.mi {
+	width: 100%;
+	padding: 5px;
+	margin: 0;
+	background: #2d4b73;
+	border: 1px solid #2d4b73;
+}
+
+.mi:hover {
+	border: 1px solid #ffd44e;
+}
+
+div.iframe {
+	margin: 0 auto;
+	padding: 0;
+}
+
+iframe {
+	border: 1px solid #ffd44e;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	margin: 0;
+}
+
+h4 {
+	color: #2d4b73;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	color: #ffffff;
+	text-align: justify;
+	font-size: 20px;
+}
+
+big {
+	font-style: bold;
+	color: #ffffff;
+}
+
+.title h3 {
+	font-style: italic;
+	color: #ffd44e;
+}
+
+.title h1 {
+	color: #ffd44e;
+}
+
+div.title {
+	overflow: hidden;
+}
+
+.txt, label {
+	color: #ffffff;
+}
+
+img {
+	width: 100%;
+	height: 67%;
+}
+
+img.thanks {
+	width: auto;
+	height: auto;
+}
+
+img.icon {
+	width: auto;
+	height: auto;
+}
+
+div.icon {
+	display: block;
+	width: auto;
+	height: auto;
+	float: left;
+	padding-bottom: 0;
+}
+
+br {
+	clear: all;
+}
+
+hr.menubreak {
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 0px;
+	color: #abb7c7;
+	border: none;
+	border-bottom: 3px solid #abb7c7;
+}
+
+.post {
+	width: 95%;
+	margin: 0 auto;
+	border: 1px solid #ffd44e;
+	background: #ffffff;
+}
+
+.post p {
+	font-size: 16px;
+	padding: 0;
+	margin: 0 auto;
+	color: #2d4b73;
+}
+
+.social {
+	padding-right: 10px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	font-size: 12px;
+	float: right;
+}
+
+.reply {
+	border-top: none;
+}
+
+div.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: table;
+	width: 100%;
+	background: #2d4b73;
+	padding: 0;
+	overflow: hidden;
+}
+
+div.nav ul {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div.nav ul li {
+	list-style-type: none;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+}
+
+div.nav ul li a {
+	display: block;
+	color: #ffd44e;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+
+	border-bottom: 3px solid white;
+}
+
+div.nav ul li a:hover {
+	background: #ffffff;
+}
+
+div.nav ul li a.active {
+	background: #007f3f;
+	border-bottom-color: #ffd44e;
+}
+
+div.btn {
+	display: table;
+	width: 100%;
+	background: #2d4b73;
+	padding: 0;
+	overflow: hidden;
+}
+
+div.btn ul {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div.btn ul li {
+	list-style-type: none;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.btn ul li a {
+	display: block;
+	width: 88%;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 3px solid #ffffff;
+}
+
+div.btn ul li.listen a {
+	float: left;
+}
+
+div.btn ul li.buy a {
+	float: right;
+}
+
+div.btn ul li a h3 {
+	color: #ffffff;
+}
+
+div.btn ul li a:hover {
+	border: 3px solid #ffd44e;
+}
+
+div.btn ul li a:hover h3 {
+	color: #ffd44e;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+footer {
+	display: block;
+	margin: 15px;
+	text-align: center;
+}
+
+footer a:link, footer a:hover, footer a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	background: #eeeeee;
+	padding: 3px 10px;
+	border: 0px solid #eeeeee;
+	border-radius: 15px;
+}
+
+footer hr {
+	width: 25%;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 0px;
+	color: #ffffff;
+	border: none;
+	border-bottom: 1px solid white;
+}
